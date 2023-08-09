@@ -20,11 +20,7 @@ const solutions = [
   {
     name: "About Me",
     href: "/about",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
+  }
 ];
 
 const solutionsmobile = [
@@ -43,11 +39,7 @@ const solutionsmobile = [
   {
     name: "About Me",
     href: "/about",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
+  }
 ];
 
 const Header = () => {

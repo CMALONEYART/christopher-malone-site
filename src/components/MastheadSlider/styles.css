@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.glide__slides img{
+    max-width: 500px;
+}
+
 .glide__slide[className*="active"] {
     background-color: rgb(254 252 232 / 10%);
 }

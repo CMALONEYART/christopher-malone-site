@@ -8,19 +8,21 @@ import "@glidejs/glide/dist/css/glide.core.css";
 import "./styles.css";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
 import background from "../../assets/tiedie-bg.jpg";
-import home1 from "../../assets/home/home1.jpg";
-import home2 from "../../assets/home/home2.jpg";
-import home3 from "../../assets/home/home3.jpg";
-import home4 from "../../assets/home/home4.jpg";
+import masthead1 from "../../assets/home/masthead1.jpg";
+import masthead2 from "../../assets/home/masthead2.jpg";
+import masthead3 from "../../assets/home/masthead3.jpg";
+import masthead4 from "../../assets/home/masthead4.jpg";
 
 const sliderConfiguration = {
-    gap: 100,
-    perView: 4,
+    gap: 50,
+    peek: 100,
+    focusAt: 'center',
+    perView: 1,
     startAt: 0,
     type: "carousel",
     swipeThreshold: 80,
     autoplay: 5000,
-    hoverpause: true,
+    hoverpause: true
   };
 
 const MastheadSlider = () => {
@@ -45,10 +47,10 @@ const MastheadSlider = () => {
         <div className="glide">
           <div className="glide__track" data-glide-el="track">
             <ul className="glide__slides">
-              <img src={home1} className="w-40 rounded-lg" />
-              <img src={home2} className="w-40 rounded-lg" />
-              <img src={home3} className="w-40 rounded-lg" />
-              <img src={home4} className="w-40 rounded-lg" />
+              <img src={masthead1} className="rounded-lg" />
+              <img src={masthead2} className="rounded-lg" />
+              <img src={masthead3} className="rounded-lg" />
+              <img src={masthead4} className="rounded-lg" />
             </ul>
           </div>
           <div className="my-5 flex flex-row items-center justify-center pt-5">
