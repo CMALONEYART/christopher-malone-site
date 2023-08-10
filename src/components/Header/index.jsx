@@ -54,7 +54,7 @@ const Header = () => {
               </p>
             </a>
           </div>
-          <div className="hidden md:flex">
+          {/* <div className="hidden md:flex">
             {solutions.map((item) => (
               <a
                 key={item.name}
@@ -64,13 +64,13 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-          </div>
-          <div className="-my-2 -mr-2 md:hidden">
+          </div> */}
+          {/* <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <span className="sr-only">Open menu</span>
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
-          </div>
+          </div> */}
         </div>
       </div>
       <Transition
