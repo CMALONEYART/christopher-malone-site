@@ -49,8 +49,8 @@ const Header = () => {
         <div className="flex flex-row md:flex-col items-center justify-between md:justify-center py-6">
           <div className="flex justify-start md:justify-center">
             <a href="/">
-              <p className="font-fraunces font-bold text-lg text-blue-800 md:text-3xl md:p-8">
-                Christopher Malone
+              <p className="font-playfair font-medium text-2xl text-blue-800 md:text-5xl md:p-8">
+                christopher malone
               </p>
             </a>
           </div>
