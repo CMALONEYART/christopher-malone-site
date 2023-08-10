@@ -15,9 +15,8 @@ import masthead4 from "../../assets/home/masthead4.jpg";
 
 const sliderConfiguration = {
     gap: 50,
-    peek: 100,
     focusAt: 'center',
-    perView: 1,
+    perView: 3,
     startAt: 0,
     type: "carousel",
     swipeThreshold: 80,
@@ -25,12 +24,25 @@ const sliderConfiguration = {
     hoverpause: true
   };
 
+const sliderConfigurationMobile = {
+    type: 'carousel',
+    animationDuration: 2000,
+    autoplay: 4000,
+    focusAt: '1',
+    startAt: 3,
+    perView: 1, 
+    swipeThreshold: 80,
+    hoverpause: true
+  };
+
 const MastheadSlider = () => {
   const slider = new Glide(".glide", sliderConfiguration);
+  const sliderMobile = new Glide(".glideMobile", sliderConfigurationMobile);
 
   useEffect(() => {
     slider.mount();
-  }, [slider]);
+    sliderMobile.mount();
+  }, [slider, sliderMobile]);
 
   return (
     <>
@@ -44,7 +56,7 @@ const MastheadSlider = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="glide">
+        <div className="glide hidden md:block">
           <div className="glide__track" data-glide-el="track">
             <ul className="glide__slides">
               <img src={masthead1} className="rounded-lg" />
@@ -68,6 +80,34 @@ const MastheadSlider = () => {
                 data-glide-dir=">"
               >
                 <ArrowRightIcon className="h-6 w-6" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="glideMobile block md:hidden">
+          <div className="glide__track" data-glide-el="track">
+            <ul className="glide__slides">
+              <img src={masthead1} />
+              <img src={masthead2} />
+              <img src={masthead3} />
+              <img src={masthead4} />
+            </ul>
+          </div>
+          <div className="my-5 flex flex-row items-center justify-center pt-5">
+            <div className="glide__arrows" data-glide-el="controls">
+              <button
+                className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400"
+                data-glide-dir="<"
+              >
+                <ArrowLeftIcon className="h-4 w-4" />
+              </button>
+            </div>
+            <div className="glide__arrows" data-glide-el="controls">
+              <button
+                className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full mr-4 hover:text-red-600 hover:bg-white border-red-400"
+                data-glide-dir=">"
+              >
+                <ArrowRightIcon className="h-4 w-4" />
               </button>
             </div>
           </div>
