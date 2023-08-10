@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // Header component for the website
 
 import { Fragment } from "react";
