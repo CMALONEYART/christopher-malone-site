@@ -7,7 +7,6 @@ import Glide from "@glidejs/glide";
 import "@glidejs/glide/dist/css/glide.core.css";
 import "./styles.css";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
-import background from "../../assets/tiedie-bg.jpg";
 import masthead1 from "../../assets/home/masthead1.jpg";
 import masthead2 from "../../assets/home/masthead2.jpg";
 import masthead3 from "../../assets/home/masthead3.jpg";
@@ -48,13 +47,7 @@ const MastheadSlider = () => {
     <>
       {" "}
       <div
-        className="py-8 md:py-10"
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
+        className="py-8 md:py-10 bg-orange-50"
       >
         <div className="glide hidden md:block">
           <div className="glide__track" data-glide-el="track">

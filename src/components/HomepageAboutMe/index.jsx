@@ -3,7 +3,7 @@ import chrisimage1 from "../../assets/home/chris-malone.jpg";
 
 const AboutPageContent = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-white pt-6 sm:pt-10 lg:overflow-visible">
+    <div className="relative isolate overflow-hidden bg-orange-50 pt-6 sm:pt-10 lg:overflow-visible">
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10 p-4">
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:p-4">

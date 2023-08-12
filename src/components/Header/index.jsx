@@ -45,7 +45,7 @@ const solutionsmobile = [
 
 const Header = () => {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-orange-50">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-row md:flex-col items-center justify-between md:justify-center py-6">
           <div className="flex justify-start md:justify-center">
