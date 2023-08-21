@@ -8,9 +8,9 @@ const Dropdown = (props) => {
 
   return (
     <Popover className="relative">
-      <Popover.Button className="mt-2 p-0 pb-2 inline-flex items-center font-fraunces text-md font-bold leading-6 text-slate-700 hover:border-blue-700 hover:border-b-2 hover:border-0 hover:rounded-none focus:outline-none">
-        <span>{items.name}</span>
-        <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
+      <Popover.Button className="mt-2 p-0 font-lora text-base font-bold inline-flex items-center leading-6 text-blue-900 hover:border-0 hover:rounded-none hover:outline-none focus-within:outline-none">
+        <span className="pb-2 hover:border-blue-900 hover:border-b-2">{items.name}</span>
+        <ChevronDownIcon className="h-5 w-5 pb-2" aria-hidden="true" />
       </Popover.Button>
 
       <Transition
@@ -25,7 +25,6 @@ const Dropdown = (props) => {
         <Popover.Panel className="absolute left-1/2 z-10 flex w-screen max-w-max -translate-x-1/2 px-4">
           <div className="flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
             <div className="p-4">
-              {/* parse items  */}
               {items.items &&
                 items.items.map((item) => (
                   <div
@@ -35,7 +34,7 @@ const Dropdown = (props) => {
                     <div>
                       <a
                         href={item.href}
-                        className="font-semibold text-gray-900 hover:text-blue-900"
+                        className="text-blue-900 hover:text-blue-900 font-lora text-base font-bold uppercase"
                       >
                         {item.name}
                         <span className="absolute inset-0" />

@@ -7,6 +7,7 @@ import Glide from "@glidejs/glide";
 import "@glidejs/glide/dist/css/glide.core.css";
 import "./styles.css";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
+import { ArrowRightCircleIcon, ArrowLeftCircleIcon } from "@heroicons/react/24/solid";
 import masthead1 from "../../assets/home/masthead1.jpg";
 import masthead2 from "../../assets/home/masthead2.jpg";
 import masthead3 from "../../assets/home/masthead3.jpg";
@@ -47,32 +48,32 @@ const MastheadSlider = () => {
     <>
       {" "}
       <div
-        className="py-8 md:py-10 bg-orange-50"
+        className="py-8 md:py-10 bg-white"
       >
         <div className="glide hidden md:block">
           <div className="glide__track" data-glide-el="track">
             <ul className="glide__slides">
-              <img src={masthead1} className="rounded-lg" />
-              <img src={masthead2} className="rounded-lg" />
-              <img src={masthead3} className="rounded-lg" />
-              <img src={masthead4} className="rounded-lg" />
+              <img src={masthead1} className="rounded-sm" />
+              <img src={masthead2} className="rounded-sm" />
+              <img src={masthead3} className="rounded-sm" />
+              <img src={masthead4} className="rounded-sm" />
             </ul>
           </div>
           <div className="my-5 flex flex-row items-center justify-center pt-5">
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400"
+                className="mx-20 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
                 data-glide-dir="<"
               >
-                <ArrowLeftIcon className="h-6 w-6" />
+                <ArrowLeftCircleIcon className="h-10 w-10" />
               </button>
             </div>
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full mr-4 hover:text-red-600 hover:bg-white border-red-400"
+                className="mx-20 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
                 data-glide-dir=">"
               >
-                <ArrowRightIcon className="h-6 w-6" />
+                <ArrowRightCircleIcon className="h-10 w-10" />
               </button>
             </div>
           </div>
@@ -89,18 +90,18 @@ const MastheadSlider = () => {
           <div className="my-5 flex flex-row items-center justify-center pt-5">
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400"
+                className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
                 data-glide-dir="<"
               >
-                <ArrowLeftIcon className="h-4 w-4" />
+                <ArrowLeftCircleIcon className="h-4 w-4" />
               </button>
             </div>
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full mr-4 hover:text-red-600 hover:bg-white border-red-400"
+                className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
                 data-glide-dir=">"
               >
-                <ArrowRightIcon className="h-4 w-4" />
+                <ArrowRightCircleIcon className="h-4 w-4" />
               </button>
             </div>
           </div>

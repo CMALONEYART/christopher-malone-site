@@ -6,14 +6,14 @@ const Footer = () => {
         <footer className="p-4 sm:p-6 bg-orange-50">
             <div>
                 <a href="/contact" className="mx-auto md:hidden">
-                    <span className="self-center text-3xl font-semibold whitespace-nowrap text-blue-800 mb-7">Let's Chat</span>
+                    <span className="font-playfair self-center text-3xl font-medium whitespace-nowrap text-blue-800 mb-7">let's chat</span>
                 </a>
                 <hr className="my-4 border-gray-800 sm:mx-auto md:hidden" />
             </div>
             <div className="max-w-7xl mx-auto flex justify-center md:justify-between">
                 <div>
                     <a href="/contact" className="mx-auto hidden md:block">
-                        <span className="self-center text-3xl font-semibold whitespace-nowrap text-blue-800">Let's Chat</span>
+                        <span className="font-playfair self-center text-3xl font-medium whitespace-nowrap text-blue-800">let's chat</span>
                     </a>
                 </div>
                 <div className="grid gap-8 sm:gap-10 grid-cols-2">

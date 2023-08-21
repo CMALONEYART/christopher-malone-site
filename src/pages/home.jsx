@@ -1,6 +1,5 @@
-import MastheadSlider from '../components/MastheadSlider/index';
-import AboutMe from '../components/HomepageAboutMe/index'
-
+import MastheadSlider from '../components/MastheadSlider';
+import AboutMe from '../components/HomepageAboutMe'
 const Home = () => {
     return (
         <>
