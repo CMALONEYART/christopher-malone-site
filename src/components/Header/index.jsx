@@ -57,7 +57,7 @@ const Header = () => {
     <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6">
-          <div className="flex justify-start lg:w-0 lg:flex-1">
+          <div className="flex justify-start md:justify-center">
             <a href="/">
               <p className="font-tiltprism font-medium text-2xl text-blue-900 md:text-5xl">
                 christopher malone
