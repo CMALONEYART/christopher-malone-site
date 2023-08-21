@@ -14,7 +14,7 @@ const solutions = [
 ];
 
 const work = {
-  name: "MY WORK",
+  name: "My Work",
   items: [
     {
       key: "0",
@@ -71,7 +71,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="mt-2 ml-10 pb-2 font-lora text-base font-bold text-blue-900 border-transparent border-b-2 hover:text-blue-900 hover:border-blue-900 uppercase tracking-wide"
+                className="mt-2 ml-10 pb-2 font-sans text-base font-bold text-blue-900 border-transparent border-b-2 hover:text-blue-900 hover:border-blue-900"
               >
                 {item.name}
               </a>

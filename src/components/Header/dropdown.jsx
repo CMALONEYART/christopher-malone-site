@@ -8,7 +8,7 @@ const Dropdown = (props) => {
 
   return (
     <Popover className="relative">
-      <Popover.Button className="mt-2 p-0 font-lora text-base font-bold inline-flex items-center leading-6 text-blue-900 hover:border-0 hover:rounded-none hover:outline-none focus-within:outline-none">
+      <Popover.Button className="mt-2 p-0 font-sans text-base font-bold inline-flex items-center leading-6 text-blue-900 hover:border-0 hover:rounded-none hover:outline-none focus-within:outline-none">
         <span className="pb-2 hover:border-blue-900 hover:border-b-2">{items.name}</span>
         <ChevronDownIcon className="h-5 w-5 pb-2" aria-hidden="true" />
       </Popover.Button>
@@ -34,7 +34,7 @@ const Dropdown = (props) => {
                     <div>
                       <a
                         href={item.href}
-                        className="text-blue-900 hover:text-blue-900 font-lora text-base font-bold uppercase"
+                        className="text-blue-900 hover:text-blue-900 font-sans text-base font-bold"
                       >
                         {item.name}
                         <span className="absolute inset-0" />
