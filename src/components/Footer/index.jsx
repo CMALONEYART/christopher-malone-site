@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="p-4 sm:p-6 bg-white">
             <div>
                 <a href="/contact" className="mx-auto md:hidden">
-                    <span className="font-lora self-center text-3xl font-medium whitespace-nowrap text-blue-800 mb-7">let's chat</span>
+                    <span className="font-lora self-center text-3xl font-medium whitespace-nowrap text-blue-900 mb-7">let's chat</span>
                 </a>
                 <hr className="my-4 border-gray-800 sm:mx-auto md:hidden" />
             </div>
