@@ -1,11 +1,11 @@
-import ContactComponent from '../components/ContactComponent';
+import WorkPage from '../components/WorkPage';
 import Header from '../components/Header'
 
 const Contact = () => {
     return (
         <>
             <Header />
-            <ContactComponent />
+            <WorkPage />
         </>
     );
 }

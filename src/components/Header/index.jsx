@@ -1,31 +1,37 @@
+/* eslint-disable no-unused-vars */
 // Header component for the website
 
 import { Fragment } from "react";
+import Dropdown from './dropdown';
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const solutions = [
   {
-    name: "Sculptures",
-    href: "/sculptures",
-  },
-  {
-    name: "Ceramics",
-    href: "/ceramics",
-  },
-  {
-    name: "Shows and Exhibitions",
-    href: "/shows",
-  },
-  {
     name: "About Me",
     href: "/about",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
+  }
 ];
+
+const work = {
+  name: "My Work",
+  items: [
+    {
+      key: "0",
+      name: "Soft Sculptures",
+      href: "/sculptures",
+    },
+    {
+      key: "1",
+      name: "Ceramics",
+      href: "/ceramics",
+    },
+    {
+      key: "2",
+      name: "Shows and Exhibitions",
+      href: "/shows",
+    },
+]};
 
 const solutionsmobile = [
   {
@@ -43,38 +49,36 @@ const solutionsmobile = [
   {
     name: "About Me",
     href: "/about",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
+  }
 ];
 
 const Header = () => {
   return (
     <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="flex flex-row md:flex-col items-center justify-between md:justify-center py-6">
+        <div className="flex items-center justify-between border-b-2 border-gray-100 py-6">
           <div className="flex justify-start md:justify-center">
             <a href="/">
-              <p className="font-fraunces font-bold text-lg text-blue-800 md:text-3xl md:p-8">
-                Christopher Malone
+              <p className="font-tiltprism font-medium text-2xl text-blue-900 md:text-5xl">
+                christopher malone
               </p>
             </a>
           </div>
           <div className="hidden md:flex">
+            <div className="ml-10" />
+            <Dropdown props={work} />
             {solutions.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="mt-2 mx-4 px-1 pb-2 font-fraunces text-base font-bold text-slate-700 border-transparent border-b-2 hover:text-slate-900 hover:border-blue-700"
+                className="mt-2 ml-10 pb-2 font-sans text-base font-bold text-blue-900 border-transparent border-b-2 hover:text-blue-900 hover:border-blue-900"
               >
                 {item.name}
               </a>
             ))}
           </div>
           <div className="-my-2 -mr-2 md:hidden">
-            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-violet-500">
               <span className="sr-only">Open menu</span>
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>

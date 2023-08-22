@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+      fontFamily: {
+       playfair: ['Playfair Display', 'serif'],
+       lora: ['Lora', 'serif'],
+       tiltprism: ['Tilt Prism', 'serif']
+      },
+    },
+  }, 
   plugins: [],
 }
