@@ -7,33 +7,36 @@ import Glide from "@glidejs/glide";
 import "@glidejs/glide/dist/css/glide.core.css";
 import "./styles.css";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
-import { ArrowRightCircleIcon, ArrowLeftCircleIcon } from "@heroicons/react/24/solid";
+import {
+  ArrowRightCircleIcon,
+  ArrowLeftCircleIcon,
+} from "@heroicons/react/24/solid";
 import masthead1 from "../../assets/home/masthead1.jpg";
 import masthead2 from "../../assets/home/masthead2.jpg";
 import masthead3 from "../../assets/home/masthead3.jpg";
 import masthead4 from "../../assets/home/masthead4.jpg";
 
 const sliderConfiguration = {
-    gap: 50,
-    focusAt: 'center',
-    perView: 3,
-    startAt: 0,
-    type: "carousel",
-    swipeThreshold: 80,
-    autoplay: 5000,
-    hoverpause: true
-  };
+  gap: 20,
+  focusAt: "center",
+  perView: 3,
+  startAt: 0,
+  type: "carousel",
+  swipeThreshold: 80,
+  autoplay: 5000,
+  hoverpause: true,
+};
 
 const sliderConfigurationMobile = {
-    type: 'carousel',
-    animationDuration: 2000,
-    autoplay: 4000,
-    focusAt: '1',
-    startAt: 3,
-    perView: 1, 
-    swipeThreshold: 80,
-    hoverpause: true
-  };
+  type: "carousel",
+  animationDuration: 2000,
+  autoplay: 4000,
+  focusAt: "1",
+  startAt: 3,
+  perView: 1,
+  swipeThreshold: 80,
+  hoverpause: true,
+};
 
 const MastheadSlider = () => {
   const slider = new Glide(".glide", sliderConfiguration);
@@ -47,16 +50,14 @@ const MastheadSlider = () => {
   return (
     <>
       {" "}
-      <div
-        className="py-8 md:py-10 bg-white"
-      >
+      <div className="py-8 md:py-10 bg-white">
         <div className="glide hidden md:block">
           <div className="glide__track" data-glide-el="track">
             <ul className="glide__slides">
-              <img src={masthead1} className="rounded-sm" />
-              <img src={masthead2} className="rounded-sm" />
-              <img src={masthead3} className="rounded-sm" />
-              <img src={masthead4} className="rounded-sm" />
+              <img src={masthead1} />
+              <img src={masthead2} />
+              <img src={masthead3} />
+              <img src={masthead4} />
             </ul>
           </div>
           <div className="my-5 flex flex-row items-center justify-center pt-5">

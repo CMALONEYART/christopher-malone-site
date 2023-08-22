@@ -17,6 +17,7 @@ button {
 
 .glide__slides img{
     max-width: 500px;
+    border-radius: 8px !important;
 }
 
 .glide__slide[className*="active"] {

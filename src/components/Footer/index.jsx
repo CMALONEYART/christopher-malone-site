@@ -3,7 +3,7 @@
 
 const Footer = () => {
     return (
-        <footer className="p-4 sm:p-6 bg-orange-50">
+        <footer className="p-4 sm:p-6 bg-white">
             <div>
                 <a href="/contact" className="mx-auto md:hidden">
                     <span className="font-playfair self-center text-3xl font-medium whitespace-nowrap text-blue-800 mb-7">let's chat</span>
