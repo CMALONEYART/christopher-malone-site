@@ -28,7 +28,7 @@ const HomepageAboutMe = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 pt-10">
             <a
               className=" hover:font-lora font-tiltprism text-2xl sm:text-4xl text-white hover:text-white hover:border-b-2 hover:border-white hover:pb-4 p-6 sm:p-0"
-              href="/about"
+              href="/work"
             >
               Check my Work
             </a>
