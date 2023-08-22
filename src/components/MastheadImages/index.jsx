@@ -5,8 +5,8 @@ import masthead4 from "../../assets/home/masthead4.jpg";
 
 const MastheadImages = () => {
   return (
-    <div className="bg-white h-screen">
-      <div className="grid grid-cols-4 ">
+    <div className="bg-white">
+      <div className="grid grid-cols-4 mx-auto max-w-screen-2xl">
         <div className="py-2 pl-2 pr-1">
           <img
             className="h-auto max-w-full rounded-sm"
