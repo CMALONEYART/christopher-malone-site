@@ -72,7 +72,7 @@ const CeramicsPage = () => {
           style={{
             backgroundImage: `url(${quote})`,
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "center center;",
+            backgroundPosition: "center",
             backgroundSize: "cover",
           }}
         >
