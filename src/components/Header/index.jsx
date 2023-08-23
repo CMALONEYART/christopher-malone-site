@@ -19,12 +19,12 @@ const work = {
     {
       key: "0",
       name: "Soft Sculptures",
-      href: "/sculptures",
+      href: "/work/sculptures",
     },
     {
       key: "1",
       name: "Ceramics",
-      href: "/ceramics",
+      href: "/work/ceramics",
     },
     {
       key: "2",
@@ -35,12 +35,12 @@ const work = {
 
 const solutionsmobile = [
   {
-    name: "Sculptures",
-    href: "/sculptures",
+    name: "Soft Sculptures",
+    href: "/work/sculptures",
   },
   {
     name: "Ceramics",
-    href: "/ceramics",
+    href: "/work/ceramics",
   },
   {
     name: "Shows and Exhibitions",
