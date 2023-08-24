@@ -9,6 +9,7 @@ import Contact from './pages/contact'
 import About from './pages/about'
 import Work from './pages/work'
 import Ceramics from './pages/ceramics'
+import Sculptures from './pages/sculptures'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/work" element={<Work />} />
               <Route path="/work/ceramics" element={<Ceramics />} />
+              <Route path="/work/sculptures" element={<Sculptures />} />
           </Routes>
       </Router>
   )
