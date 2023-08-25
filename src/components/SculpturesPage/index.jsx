@@ -51,27 +51,27 @@ const SculpturesPage = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 max-w-7xl gap-2 py-4 px-2 md:px-0 md:py-8 items-center mx-auto justify-items-center">
         <img
-          className="rounded-sm shadow-sm p-4 bg-white w-[164px]"
+          className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures4}
           alt=""
         />
         <img
-          className="rounded-sm shadow-sm p-4 bg-white w-[164px]"
+          className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures5}
           alt=""
         />
         <img
-          className="rounded-sm shadow-sm p-4 bg-white w-[164px]"
+          className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures6}
           alt=""
         />
         <img
-          className="rounded-sm shadow-sm p-4 bg-white w-[164px]"
+          className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures7}
           alt=""
         />
         <img
-          className="rounded-sm shadow-sm p-4 bg-white w-[164px] hidden lg:block"
+          className="rounded-sm shadow-sm p-4 bg-white w-[264px] hidden lg:block"
           src={sculptures8}
           alt=""
         />
