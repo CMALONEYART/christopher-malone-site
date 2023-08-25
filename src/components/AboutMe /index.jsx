@@ -9,7 +9,7 @@ const AboutMe = () => {
         About Me
       </h1>
       <div className="flex flex-col md:flex-row justify-center items-center">
-        <p className="md:w-1/2 text-lg md:text-xl font-lora text-center md:text-left font-normal mx-auto text-blue-900 p-6 md:p-10">
+        <p className="md:w-1/2 text-lg md:text-xl font-lora text-center md:text-left font-semibold mx-auto text-blue-900 p-6 md:p-10">
           I started making dolls In 1992 when I had just moved to the
           Washington, D.C. area, as I was walking through Old Town Alexandria,
           VA, I came upon a shop called Angie's Doll Boutique. The ladies in the
@@ -39,7 +39,7 @@ const AboutMe = () => {
           src={chrisimage2}
           alt="Chris Image"
         />
-        <p className="md:w-1/2 text-lg md:text-xl font-lora text-center md:text-left font-normal mx-auto text-blue-900 p-6 md:p-10">
+        <p className="md:w-1/2 text-lg md:text-xl font-lora text-center md:text-left font-semibold mx-auto text-blue-900 p-6 md:p-10">
           When I am creating a doll I'll have the exotic fabric, beads, and
           feathers on a table in front of me and I let the Universe (Spirit)
           guide me, I do the same when I'm sculpting in clay. Maybe my guidance
