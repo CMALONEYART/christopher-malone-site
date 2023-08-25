@@ -1,11 +1,11 @@
 import Header from '../components/Header'
-import AboutMePage from '../components/AboutMePage';
+import AboutMe from '../components/AboutMe ';
 
 const About = () => {
     return (
         <>
             <Header />
-            <AboutMePage />
+            <AboutMe />
         </>
     );
 }
