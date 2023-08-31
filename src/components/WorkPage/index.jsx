@@ -1,11 +1,32 @@
 /* eslint-disable react/no-unescaped-entities */
 import chrisimage from "../../assets/work/showwork.png";
+import work1 from "../../assets/work/work1.jpg";
+import work2 from "../../assets/work/work2.jpg";
+import work3 from "../../assets/work/work3.jpg";
+import work4 from "../../assets/work/work4.jpg";
 
 const WorkPage = () => {
   return (
     <div className="bg-blue-900">
+      <div className="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto gap-2 pt-2 px-2 md:px-0">
+        <h1 className="col-span-2 md:col-span-4 text-2xl md:text-5xl text-center font-semibold px-6 md:px-8 py-6 md:py-10 font-tiltprism hover:font-lora">
+          My Work
+        </h1>
+        <img className="rounded-sm shadow-sm p-8 bg-white" src={work1} alt="" />
+        <img className="rounded-sm shadow-sm p-8 bg-white" src={work2} alt="" />
+        <img className="rounded-sm shadow-sm p-8 bg-white" src={work3} alt="" />
+        <img className="rounded-sm shadow-sm p-8 bg-white" src={work4} alt="" />
+        <p className="col-span-2 md:col-span-4 font-lora text-md md:text-2xl text-left font-semibold px-6 md:px-8 py-6 md:py-10 bg-white text-blue-900 rounded-sm">
+          The process I use to create is achieved by sitting quietly undisturbed
+          with a cup of hot tea or a jack and coke and a cigar. Please excuse me if my honestly makes you uncomfortable, but that's
+          how I start.
+          <br />
+          After that I just wait. I usully don't have to wait too long. I start
+          to create by starting with the armature, I guess most folks do.
+        </p>
+      </div>
       <div className="mx-auto py-10 px-2 md:px-4 max-w-7xl flex flex-col md:flex-row justify-center items-center">
-        <div className="md:w-3/5">
+        {/* <div className="md:w-3/5">
           <h1 className="font-lora text-xl md:text-3xl text-left pb-10 hover:font-tiltprism px-6 md:px-4">
             Shows and Exhibits
           </h1>
@@ -126,8 +147,9 @@ const WorkPage = () => {
               2022 - January, Torpedo Factory
             </li>
           </ul>
-        </div>
-        <div className="md:w-2/5">
+        </div> */}
+
+        <div>
           <img
             className="w-[25em] mx-auto max-w-2xl rounded-sm shadow-sm mt-8 lg:mt-0"
             src={chrisimage}
