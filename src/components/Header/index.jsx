@@ -2,7 +2,7 @@
 // Header component for the website
 
 import { Fragment } from "react";
-import Dropdown from './dropdown';
+import Dropdown from "./dropdown";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -10,7 +10,7 @@ const solutions = [
   {
     name: "About Me",
     href: "/about",
-  }
+  },
 ];
 
 const work = {
@@ -18,22 +18,32 @@ const work = {
   items: [
     {
       key: "0",
+      name: "Work Overview",
+      href: "/work",
+    },
+    {
+      key: "1",
       name: "Soft Sculptures",
       href: "/work/sculptures",
     },
     {
-      key: "1",
+      key: "2",
       name: "Ceramics",
       href: "/work/ceramics",
     },
     {
-      key: "2",
+      key: "3",
       name: "Shows and Exhibitions",
       href: "/shows",
     },
-]};
+  ],
+};
 
 const solutionsmobile = [
+  {
+    name: "Work",
+    href: "/work",
+  },
   {
     name: "Soft Sculptures",
     href: "/work/sculptures",
@@ -49,7 +59,7 @@ const solutionsmobile = [
   {
     name: "About Me",
     href: "/about",
-  }
+  },
 ];
 
 const Header = () => {
