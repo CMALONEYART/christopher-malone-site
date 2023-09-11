@@ -28,14 +28,14 @@ const AboutMe = () => {
           <br />
         </p>
         <img
-          className="w-[25em] mx-auto m-4 p-4 bg-blue-900 md:w-1/2 max-w-md"
+          className="w-[25em] mx-auto m-4 p-4 bg-blue-900 md:w-1/2 max-w-md rounded-sm"
           src={chrisimage1}
           alt="Chris Image"
         />
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center">
         <img
-          className="w-[25em] mx-auto m-4 p-4 bg-blue-900 md:w-1/2 max-w-md"
+          className="w-[25em] mx-auto m-4 p-4 bg-blue-900 md:w-1/2 max-w-md rounded-sm"
           src={chrisimage2}
           alt="Chris Image"
         />
