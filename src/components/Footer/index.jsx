@@ -5,14 +5,14 @@ const Footer = () => {
     return (
         <footer className="p-4 sm:p-6 bg-white">
             <div>
-                <a href="/contact" className="mx-auto md:hidden">
+                <a href="mailto:chrismalone162@msn.com" className="mx-auto md:hidden">
                     <span className="font-lora self-center text-3xl font-medium whitespace-nowrap text-blue-900 mb-7">let's chat</span>
                 </a>
                 <hr className="my-4 border-gray-800 sm:mx-auto md:hidden" />
             </div>
             <div className="max-w-7xl mx-auto flex justify-center md:justify-between">
                 <div>
-                    <a href="/contact" className="mx-auto hidden md:block">
+                    <a href="mailto:chrismalone162@msn.com" className="mx-auto hidden md:block">
                         <span className="font-lora self-center text-3xl font-medium whitespace-nowrap text-blue-800">let's chat</span>
                     </a>
                 </div>
