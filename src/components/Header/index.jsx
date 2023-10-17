@@ -30,12 +30,7 @@ const work = {
       key: "2",
       name: "Ceramics",
       href: "/work/ceramics",
-    },
-    {
-      key: "3",
-      name: "Shows and Exhibitions",
-      href: "/shows",
-    },
+    }
   ],
 };
 
@@ -51,10 +46,6 @@ const solutionsmobile = [
   {
     name: "Ceramics",
     href: "/work/ceramics",
-  },
-  {
-    name: "Shows and Exhibitions",
-    href: "/shows",
   },
   {
     name: "About Me",
