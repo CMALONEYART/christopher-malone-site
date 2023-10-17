@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import chrisimage from "../../assets/work/showwork.png";
 import work1 from "../../assets/work/work1.jpg";
 import work2 from "../../assets/work/work2.jpg";
 import work3 from "../../assets/work/work3.jpg";
@@ -18,12 +17,38 @@ const WorkPage = () => {
         <img className="rounded-sm shadow-sm p-8 bg-white" src={work4} alt="" />
         <p className="col-span-2 md:col-span-4 font-lora text-md md:text-2xl text-left font-semibold px-6 md:px-8 py-6 md:py-10 bg-white text-blue-900 rounded-sm">
           The process I use to create is achieved by sitting quietly undisturbed
-          with a cup of hot tea or a jack and coke and a cigar. Please excuse me if my honestly makes you uncomfortable, but that's
-          how I start.
+          with a cup of hot tea or a jack and coke and a cigar. Please excuse me
+          if my honestly makes you uncomfortable, but that's how I start.
           <br />
           After that I just wait. I usully don't have to wait too long. I start
           to create by starting with the armature, I guess most folks do.
         </p>
+      </div>
+      <div className="mx-auto py-10 px-2 md:px-4 max-w-7xl flex flex-col md:flex-row justify-center items-center">
+        <div>
+          <h1 className="font-lora text-2xl md:text-4xl text-center pt-10 pb-16 hover:font-tiltprism px-6 md:px-4">
+            Publications
+          </h1>
+          <a
+            href="https://folklife.si.edu/magazine/chris-malone-sculpture"
+            target="_blank"
+            rel="noreferrer"
+            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
+          >
+            <img
+              src="https://folklife.si.edu/Media/Default/Talk%20Story/SC3_7591.JPG"
+              alt="Publication Image 1"
+              className="pb-4 rounded-sm"
+            />
+            <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
+              Pieces of Life: Chris Malone’s Sculptures Tell Stories of
+              Spirituality and an Unknown Past
+            </h5>
+            <p className="font-normal text-sm md:text-md text-gray-700 dark:text-blue-600">
+              ART & DESIGN, RELIGION & SPIRITUALITY
+            </p>
+          </a>
+        </div>
       </div>
       <div className="mx-auto py-10 px-2 md:px-4 max-w-7xl flex flex-col md:flex-row justify-center items-center">
         <div>
@@ -148,14 +173,6 @@ const WorkPage = () => {
             </li>
           </ul>
         </div>
-
-        {/* <div>
-          <img
-            className="w-[25em] mx-auto max-w-2xl rounded-sm shadow-sm mt-8 lg:mt-0"
-            src={chrisimage}
-            alt=""
-          />
-        </div> */}
       </div>
     </div>
   );
