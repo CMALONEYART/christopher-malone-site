@@ -63,7 +63,7 @@ const MastheadSlider = () => {
           <div className="my-5 flex flex-row items-center justify-center pt-5">
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-20 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
+                className="mx-20 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-blue-400 text-white font-bold py-2 px-6 rounded-full hover:text-blue-600 hover:bg-white border-blue-400 hover:border-blue-400"
                 data-glide-dir="<"
               >
                 <ArrowLeftCircleIcon className="h-10 w-10" />
@@ -71,7 +71,7 @@ const MastheadSlider = () => {
             </div>
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-20 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
+                className="mx-20 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-blue-400 text-white font-bold py-2 px-6 rounded-full hover:text-blue-600 hover:bg-white border-blue-400 hover:border-blue-400"
                 data-glide-dir=">"
               >
                 <ArrowRightCircleIcon className="h-10 w-10" />
@@ -91,7 +91,7 @@ const MastheadSlider = () => {
           <div className="my-5 flex flex-row items-center justify-center pt-5">
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
+                className="mx-4 md:mx-16 glide__arrow glide__arrow--left focus:outline-none focus:shadow-outline bg-blue-400 text-white font-bold py-2 px-6 rounded-full hover:text-blue-600 hover:bg-white border-blue-400 hover:border-blue-400"
                 data-glide-dir="<"
               >
                 <ArrowLeftCircleIcon className="h-4 w-4" />
@@ -99,12 +99,17 @@ const MastheadSlider = () => {
             </div>
             <div className="glide__arrows" data-glide-el="controls">
               <button
-                className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-red-400 text-white font-bold py-2 px-6 rounded-full hover:text-red-600 hover:bg-white border-red-400 hover:border-red-400"
+                className="mx-4 md:mx-16 glide__arrow glide__arrow--right focus:outline-none focus:shadow-outline bg-blue-400 text-white font-bold py-2 px-6 rounded-full hover:text-blue-600 hover:bg-white border-blue-400 hover:border-blue-400"
                 data-glide-dir=">"
               >
                 <ArrowRightCircleIcon className="h-4 w-4" />
               </button>
             </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 bg-white">
+          <div className="my-8 mx-2">
+            <h1 className="font-tiltprism font-medium text-4xl text-blue-900 md:text-7xl">CHRISTOPHER MALONE</h1>
           </div>
         </div>
       </div>
