@@ -3,6 +3,7 @@ import work1 from "../../assets/work/work1.jpg";
 import work2 from "../../assets/work/work2.jpg";
 import work3 from "../../assets/work/work3.jpg";
 import work4 from "../../assets/work/work4.jpg";
+import washingtonSculptor from "../../assets/work/WashingtonSculptor.jpg";
 
 const WorkPage = () => {
   return (
@@ -29,25 +30,41 @@ const WorkPage = () => {
           <h1 className="font-lora text-2xl md:text-4xl text-center pt-10 pb-16 hover:font-tiltprism px-6 md:px-4">
             Publications
           </h1>
-          <a
-            href="https://folklife.si.edu/magazine/chris-malone-sculpture"
-            target="_blank"
-            rel="noreferrer"
-            className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
-          >
-            <img
-              src="https://folklife.si.edu/Media/Default/Talk%20Story/SC3_7591.JPG"
-              alt="Publication Image 1"
-              className="pb-4 rounded-sm"
-            />
-            <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
-              Pieces of Life: Chris Malone’s Sculptures Tell Stories of
-              Spirituality and an Unknown Past
-            </h5>
-            <p className="font-normal text-sm md:text-md text-gray-700 dark:text-blue-600">
-              ART & DESIGN, RELIGION & SPIRITUALITY
-            </p>
-          </a>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+            <a
+              href="https://folklife.si.edu/magazine/chris-malone-sculpture"
+              target="_blank"
+              rel="noreferrer"
+              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
+            >
+              <img
+                src="https://folklife.si.edu/Media/Default/Talk%20Story/SC3_7591.JPG"
+                alt="Publication Image 1"
+                className="pb-4 rounded-sm"
+              />
+              <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
+                Pieces of Life: Chris Malone’s Sculptures Tell Stories of
+                Spirituality and an Unknown Past
+              </h5>
+            </a>
+            <a
+              href="https://washingtonsculptors.org/wp-content/uploads/newsletters/wsg_2024_no1_winter_web.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
+            >
+              <img
+                src={washingtonSculptor}
+                alt="Publication Image 1"
+                className="pb-4 rounded-sm"
+              />
+              <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
+                Interview with the Washington Sculptor’s group
+                <br />
+                2024
+              </h5>
+            </a>
+          </div>
         </div>
       </div>
       <div className="mx-auto py-10 px-2 md:px-4 max-w-7xl flex flex-col md:flex-row justify-center items-center">
