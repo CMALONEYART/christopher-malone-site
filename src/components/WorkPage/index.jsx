@@ -4,6 +4,10 @@ import work2 from "../../assets/work/work2.jpg";
 import work3 from "../../assets/work/work3.jpg";
 import work4 from "../../assets/work/work4.jpg";
 import washingtonSculptor from "../../assets/work/WashingtonSculptor.jpg";
+import piece1 from "../../assets/work/sculptures/pieces/1.jpg";
+import piece2 from "../../assets/work/sculptures/pieces/2.jpg";
+import piece3 from "../../assets/work/sculptures/pieces/3.jpg";
+import piece4 from "../../assets/work/sculptures/pieces/4.jpg";
 
 const WorkPage = () => {
   return (
@@ -27,43 +31,83 @@ const WorkPage = () => {
       </div>
       <div className="mx-auto py-10 px-2 md:px-4 max-w-7xl flex flex-col md:flex-row justify-center items-center">
         <div>
-          <h1 className="font-lora text-2xl md:text-4xl text-center pt-10 pb-16 hover:font-tiltprism px-6 md:px-4">
-            Publications
-          </h1>
+          <h2 className="font-lora text-2xl md:text-4xl text-center pt-10 pb-16 hover:font-tiltprism px-6 md:px-4">
+            Pieces<br />
+            <span className="text-lg md:text-xl">(Please reach out for more information)</span>
+          </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-            <a
-              href="https://folklife.si.edu/magazine/chris-malone-sculpture"
-              target="_blank"
-              rel="noreferrer"
+            <div
               className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
             >
               <img
-                src="https://folklife.si.edu/Media/Default/Talk%20Story/SC3_7591.JPG"
-                alt="Publication Image 1"
+                src={piece1}
+                alt="Pieces 1"
                 className="pb-4 rounded-sm"
               />
               <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
-                Pieces of Life: Chris Malone’s Sculptures Tell Stories of
-                Spirituality and an Unknown Past
+                Situated at the Black History Museum, Richmond, VA
+                <span className="text-md md:text-lg uppercase text-blue-700">
+                  <br />
+                  26”X18”X20” - 2023
+                  <br /> 
+                  $8000.00
+                </span>
               </h5>
-            </a>
-            <a
-              href="https://washingtonsculptors.org/wp-content/uploads/newsletters/wsg_2024_no1_winter_web.pdf"
-              target="_blank"
-              rel="noreferrer"
+            </div>
+            <div
               className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
             >
               <img
-                src={washingtonSculptor}
-                alt="Publication Image 1"
+                src={piece2}
+                alt="Pieces 2"
                 className="pb-4 rounded-sm"
               />
               <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
-                Interview with the Washington Sculptor’s group
-                <br />
-                2024
+                “Thomasina, The Advisor” - Ceramic - 2023<br />
+                <span className="text-md md:text-lg uppercase text-blue-700">
+                  <br />
+                   
+                  <br /> 
+                  $4800.00
+                </span>
               </h5>
-            </a>
+            </div>
+            <div
+              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
+            >
+              <img
+                src={piece3}
+                alt="Pieces 3"
+                className="pb-4 rounded-sm"
+              />
+              <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
+                “23.3” - Ceramic Clay, Underglaze, Glaze - 2023<br />
+                <span className="text-md md:text-lg uppercase text-blue-700">
+                  <br />
+                  18”X9”X8”
+                  <br /> 
+                  $1800.00
+                </span>
+              </h5>
+            </div>
+            <div
+              className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300"
+            >
+              <img
+                src={piece4}
+                alt="Pieces 4"
+                className="pb-4 rounded-sm"
+              />
+              <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
+                “23.4” - Ceramic, Glaze, Unglaze, Stain - 2023<br />
+                <span className="text-md md:text-lg uppercase text-blue-700">
+                  <br />
+                  23”X11”X8”
+                  <br /> 
+                  $1800.00
+                </span>
+              </h5>
+            </div>
           </div>
         </div>
       </div>
@@ -97,7 +141,7 @@ const WorkPage = () => {
             >
               <img
                 src={washingtonSculptor}
-                alt="Publication Image 1"
+                alt="Publication Image 2"
                 className="pb-4 rounded-sm"
               />
               <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
