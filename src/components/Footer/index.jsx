@@ -17,7 +17,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="grid gap-8 sm:gap-10 grid-cols-2">
-                    <a href="/sales" className="mt-1.5 text-sm font-semibold text-slate-700 uppercase border-b-2 border-transparent hover:text-slate-900 hover:border-blue-800">
+                    <a href="mailto:chrismalone162@msn.com" className="mt-1.5 text-sm font-semibold text-slate-700 uppercase border-b-2 border-transparent hover:text-slate-900 hover:border-blue-800">
                         <h2>Sales</h2>
                     </a>
                     <a href="mailto:chrismalone162@msn.com" className="mt-1.5 text-sm font-semibold text-slate-700 uppercase border-b-2 border-transparent hover:text-slate-900 hover:border-blue-800">
