@@ -12,6 +12,10 @@ import babuka1 from "../../assets/work/acclaims/babuka1-min.jpg";
 import babuka2 from "../../assets/work/acclaims/babuka2-min.jpg";
 import bendo1 from "../../assets/work/acclaims/bendo1-min.jpg";
 import bendo2 from "../../assets/work/acclaims/bendo2-min.jpg";
+import babuka1 from "../../assets/work/acclaims/babuka1-min.jpg";
+import babuka2 from "../../assets/work/acclaims/babuka2-min.jpg";
+import bendo1 from "../../assets/work/acclaims/bendo1-min.jpg";
+import bendo2 from "../../assets/work/acclaims/bendo2-min.jpg";
 
 const WorkPage = () => {
   const workImages = [work1, work2, work3, work4];
