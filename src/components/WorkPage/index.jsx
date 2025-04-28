@@ -8,6 +8,10 @@ import piece1 from "../../assets/work/sculptures/pieces/1.jpg";
 import piece2 from "../../assets/work/sculptures/pieces/2.jpg";
 import piece3 from "../../assets/work/sculptures/pieces/3.jpg";
 import piece4 from "../../assets/work/sculptures/pieces/4.jpg";
+import babuka1 from "../../assets/work/acclaims/babuka1-min.jpg";
+import babuka2 from "../../assets/work/acclaims/babuka2-min.jpg";
+import bendo1 from "../../assets/work/acclaims/bendo1-min.jpg";
+import bendo2 from "../../assets/work/acclaims/bendo2-min.jpg";
 
 const WorkPage = () => {
   return (
@@ -29,6 +33,49 @@ const WorkPage = () => {
           to create by starting with the armature, I guess most folks do.
         </p>
       </div>
+      <div className="mx-auto py-10 px-2 md:px-4 max-w-7xl flex flex-col items-center">
+        <h1 className="font-lora text-2xl md:text-4xl text-center pt-10 pb-16 hover:font-tiltprism px-6 md:px-4">
+          Acclaims
+        </h1>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
+          {/* First Group */}
+          <div className="flex flex-col items-center">
+            <h2 className="font-lora text-xl md:text-3xl text-center mb-2">Babuka</h2>
+            <p className="text-md text-gray-200 mb-6">Best in Show,<br />Creative Craft Council Exhibition<br />Strathmore Mansion, Rockville</p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <img
+                src={babuka1}
+                alt="Babuka 1"
+                className="rounded-sm shadow-sm p-4 bg-white w-full sm:w-1/2"
+              />
+              <img
+                src={babuka2}
+                alt="Babuka 2"
+                className="rounded-sm shadow-sm p-4 bg-white w-full sm:w-1/2"
+              />
+            </div>
+          </div>
+
+          {/* Second Group */}
+          <div className="flex flex-col items-center">
+            <h2 className="font-lora text-xl md:text-3xl text-center mb-2">Bendo</h2>
+            <p className="text-md text-gray-200 mb-6">2nd Place, Ceramics<br />Creative Craft Council Exhibition<br />Strathmore Mansion, Rockville</p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <img
+                src={bendo1}
+                alt="Bendo 1"
+                className="rounded-sm shadow-sm p-4 bg-white w-full sm:w-1/2"
+              />
+              <img
+                src={bendo2}
+                alt="Bendo 2"
+                className="rounded-sm shadow-sm p-4 bg-white w-full sm:w-1/2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="mx-auto py-10 px-2 md:px-4 max-w-7xl flex flex-col md:flex-row justify-center items-center">
         <div>
           <h2 className="font-lora text-2xl md:text-4xl text-center pt-10 pb-16 hover:font-tiltprism px-6 md:px-4">
@@ -49,7 +96,7 @@ const WorkPage = () => {
                 <span className="text-md md:text-lg uppercase text-blue-700">
                   <br />
                   26”X18”X20” - 2023
-                  <br /> 
+                  <br />
                   $8000.00
                 </span>
               </h5>
@@ -66,8 +113,8 @@ const WorkPage = () => {
                 “Thomasina, The Advisor” - Ceramic - 2023<br />
                 <span className="text-md md:text-lg uppercase text-blue-700">
                   <br />
-                   
-                  <br /> 
+
+                  <br />
                   $4800.00
                 </span>
               </h5>
@@ -85,7 +132,7 @@ const WorkPage = () => {
                 <span className="text-md md:text-lg uppercase text-blue-700">
                   <br />
                   18”X9”X8”
-                  <br /> 
+                  <br />
                   $1800.00
                 </span>
               </h5>
@@ -103,7 +150,7 @@ const WorkPage = () => {
                 <span className="text-md md:text-lg uppercase text-blue-700">
                   <br />
                   23”X11”X8”
-                  <br /> 
+                  <br />
                   $1800.00
                 </span>
               </h5>
