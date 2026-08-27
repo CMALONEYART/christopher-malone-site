@@ -21,31 +21,43 @@ const CeramicsPage = () => {
         <img
           src={ceramics2}
           alt="Ceramics 2"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics4}
           alt="Ceramics 4"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics5}
           alt="Ceramics 5"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics6}
           alt="Ceramics 6"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics7}
           alt="Ceramics 7"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics8}
           alt="Ceramics 8"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
       </div>
