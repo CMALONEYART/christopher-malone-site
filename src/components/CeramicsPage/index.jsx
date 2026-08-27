@@ -16,36 +16,48 @@ import quote from "../../assets/work/ceramics/quote.png";
 
 const CeramicsPage = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white min-h-screen w-full">
       <div className="max-w-7xl mx-auto grid gap-2 md:grid-cols-3 grid-cols-2">
         <img
           src={ceramics2}
           alt="Ceramics 2"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics4}
           alt="Ceramics 4"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics5}
           alt="Ceramics 5"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics6}
           alt="Ceramics 6"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics7}
           alt="Ceramics 7"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
         <img
           src={ceramics8}
           alt="Ceramics 8"
+          loading="lazy"
+          decoding="async"
           className="rounded-sm p-8 bg-blue-900"
         />
       </div>

@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="flex flex-col sm:items-end mt-2 sm:mt-0">
                     <span className="text-sm text-gray-600 sm:text-center">© <a href="#" className="hover:underline hover:text-slate-900 text-slate-700">Gregory R. Staley Photography™</a>
                     </span>
-                    <span className="text-sm text-gray-600 sm:text-center">© 2023 <a href="#" className="hover:underline hover:text-slate-900 text-slate-700">Christopher Malone™</a>. All Rights Reserved.
+                    <span className="text-sm text-gray-600 sm:text-center">© {new Date().getFullYear()} <a href="#" className="hover:underline hover:text-slate-900 text-slate-700">Christopher Malone™</a>. All Rights Reserved.
                     </span>
                 </div>
             </div>

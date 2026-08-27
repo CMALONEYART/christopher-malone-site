@@ -56,7 +56,7 @@ const WorkPage = () => {
   ];
 
   return (
-    <div className="bg-blue-900">
+    <div className="bg-blue-900 min-h-screen w-full">
       {/* Work Section */}
       <div className="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto gap-2 pt-2 px-2 md:px-0">
         <h1 className="col-span-2 md:col-span-4 text-2xl md:text-5xl text-center font-semibold px-6 md:px-8 py-6 md:py-10 font-tiltprism hover:font-lora">
@@ -96,7 +96,7 @@ const WorkPage = () => {
               <p className="text-md text-gray-200 mb-6 whitespace-pre-line">{item.text}</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 {item.images.map((img, idx) => (
-                  <img key={idx} src={img} alt={`${item.title} ${idx + 1}`} className="rounded-sm shadow-sm p-4 bg-white w-full sm:w-1/2" />
+                  <img key={idx} src={img} loading="lazy" decoding="async" alt={`${item.title} ${idx + 1}`} className="rounded-sm shadow-sm p-4 bg-white w-full sm:w-1/2" />
                 ))}
               </div>
             </div>
@@ -118,6 +118,8 @@ const WorkPage = () => {
               <img
                 src={piece1}
                 alt="Pieces 1"
+                loading="lazy"
+                decoding="async"
                 className="pb-4 rounded-sm"
               />
               <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
@@ -140,6 +142,8 @@ const WorkPage = () => {
               <img
                 src={piece2}
                 alt="Pieces 2"
+                loading="lazy"
+                decoding="async"
                 className="pb-4 rounded-sm"
               />
               <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
@@ -162,6 +166,8 @@ const WorkPage = () => {
               <img
                 src={piece3}
                 alt="Pieces 3"
+                loading="lazy"
+                decoding="async"
                 className="pb-4 rounded-sm"
               />
               <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
@@ -184,6 +190,8 @@ const WorkPage = () => {
               <img
                 src={piece4}
                 alt="Pieces 4"
+                loading="lazy"
+                decoding="async"
                 className="pb-4 rounded-sm"
               />
               <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900">
@@ -224,7 +232,7 @@ const WorkPage = () => {
               }
             ].map((pub, index) => (
               <a key={index} href={pub.href} target="_blank" rel="noreferrer" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-slate-300">
-                <img src={pub.src} alt={`Publication Image ${index + 1}`} className="pb-4 rounded-sm" />
+                <img src={pub.src} loading="lazy" decoding="async" alt={`Publication Image ${index + 1}`} className="pb-4 rounded-sm" />
                 <h5 className="mb-2 text-lg md:text-xl font-bold tracking-tight text-blue-900 whitespace-pre-line">{pub.text}</h5>
               </a>
             ))}

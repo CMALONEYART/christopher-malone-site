@@ -11,7 +11,7 @@ import sculptures8 from "../../assets/work/sculptures/8.jpeg";
 
 const SculpturesPage = () => {
   return (
-    <div className="bg-blue-900">
+    <div className="bg-blue-900 min-h-screen w-full">
       <h1 className="col-span-2 text-2xl md:text-5xl text-center font-semibold px-6 md:px-8 py-6 md:py-10 font-tiltprism hover:font-lora">
         Soft Sculptures
       </h1>
@@ -19,7 +19,9 @@ const SculpturesPage = () => {
         <img
           className="rounded-sm shadow-sm p-6 bg-white w-[250px] md:w-[400px]"
           src={sculptures1}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
         <p className="md:col-span-2 text-lg md:text-2xl font-lora text-left font-normal px-6 md:px-8 pb-6 md:pb-10">
           These images are sculptures that I have been working on, the whole
@@ -33,12 +35,16 @@ const SculpturesPage = () => {
         <img
           className="rounded-sm shadow-sm p-6 bg-white w-[250px] md:w-[400px]"
           src={sculptures2}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
         <img
           className="rounded-sm shadow-sm p-6 bg-white w-[250px] md:w-[400px]"
           src={sculptures3}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
         <p className="md:col-span-3 text-lg md:text-3xl font-lora text-center font-normal px-6 md:px-8 py-6 md:py-10 max-w-5xl mx-auto">
           Remember that none of this is difficult. Often times people will plant
@@ -53,27 +59,37 @@ const SculpturesPage = () => {
         <img
           className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures4}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
         <img
           className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures5}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
         <img
           className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures6}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
         <img
           className="rounded-sm shadow-sm p-4 bg-white w-[264px]"
           src={sculptures7}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
         <img
           className="rounded-sm shadow-sm p-4 bg-white w-[264px] hidden lg:block"
           src={sculptures8}
-          alt=""
+          alt="Sculpture by Christopher Malone"
+          loading="lazy"
+          decoding="async"
         />
       </div>
     </div>

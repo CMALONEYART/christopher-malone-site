@@ -5,7 +5,7 @@ import chrisimage3 from "../../assets/chrismalone3.jpeg";
 
 const AboutMe = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white min-h-screen w-full">
       <h1 className="col-span-2 text-2xl md:text-5xl text-center font-semibold px-6 md:px-8 py-6 md:py-10 font-tiltprism hover:font-lora text-blue-900">
         About Me
       </h1>
