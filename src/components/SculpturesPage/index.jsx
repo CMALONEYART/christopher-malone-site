@@ -11,7 +11,7 @@ import sculptures8 from "../../assets/work/sculptures/8.jpeg";
 
 const SculpturesPage = () => {
   return (
-    <div className="bg-blue-900">
+    <div className="bg-blue-900 min-h-screen w-full">
       <h1 className="col-span-2 text-2xl md:text-5xl text-center font-semibold px-6 md:px-8 py-6 md:py-10 font-tiltprism hover:font-lora">
         Soft Sculptures
       </h1>

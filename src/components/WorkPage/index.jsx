@@ -56,7 +56,7 @@ const WorkPage = () => {
   ];
 
   return (
-    <div className="bg-blue-900">
+    <div className="bg-blue-900 min-h-screen w-full">
       {/* Work Section */}
       <div className="grid grid-cols-2 md:grid-cols-4 max-w-7xl mx-auto gap-2 pt-2 px-2 md:px-0">
         <h1 className="col-span-2 md:col-span-4 text-2xl md:text-5xl text-center font-semibold px-6 md:px-8 py-6 md:py-10 font-tiltprism hover:font-lora">

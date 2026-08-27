@@ -16,7 +16,7 @@ import quote from "../../assets/work/ceramics/quote.png";
 
 const CeramicsPage = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white min-h-screen w-full">
       <div className="max-w-7xl mx-auto grid gap-2 md:grid-cols-3 grid-cols-2">
         <img
           src={ceramics2}
